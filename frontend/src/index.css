@@ -1,0 +1,90 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8fafc;
+  
+  
+  color: #222;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Home Page */
+.home {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0a2540;
+}
+
+/* Upload Form */
+.upload-form {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.upload-form input[type="file"] {
+  display: block;
+  margin: 10px auto 20px;
+}
+
+.upload-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.upload-form button:hover {
+  background: #1d4ed8;
+}
+
+.upload-form button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Result Card */
+.card {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card.success {
+  background: #ecfdf5;
+  border: 1px solid #10b981;
+  color: #065f46;
+}
+
+.card.error {
+  background: #fef2f2;
+  border: 1px solid #f87171;
+  color: #7f1d1d;
+}
